@@ -1,0 +1,22 @@
+# ROS 2 build folders (si lo instalas en un workspace superior)
+build/
+install/
+log/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Capturas e imágenes generadas durante pruebas de vuelo
+evidencia_rescate_*.jpg
+*.mp4
+*.avi
+
+# Archivos temporales de Ubuntu/WSL y Gazebo
+*~
+*.log
+.vscode/
+
+# Metadatos de Windows
+*Zone.Identifier
